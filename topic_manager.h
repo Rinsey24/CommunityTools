@@ -8,6 +8,7 @@
 class TopicManager {
 public:
     static int generateTopicId();
+    static bool topicExists(int topicId);
 
 private:
     static int nextTopicId;

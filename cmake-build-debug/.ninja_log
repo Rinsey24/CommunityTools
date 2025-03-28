@@ -20,3 +20,9 @@
 30	487	7648653705042115	CMakeFiles/CommunityTools.dir/moderator.cpp.obj	7d95298d6f3e602c
 33	509	7648653705067361	CMakeFiles/CommunityTools.dir/admin.cpp.obj	16bb5832204de3cc
 509	771	7648653709829873	CommunityTools.exe	880fb01988e41f9e
+43	102	7648680570371602	CMakeFiles/CommunityTools.dir/topic_manager.cpp.obj	6eb95761e70e2260
+41	103	7648680570341597	CMakeFiles/CommunityTools.dir/message_manager.cpp.obj	43a13667f3d0651d
+36	464	7648680570301607	CMakeFiles/CommunityTools.dir/main.cpp.obj	aab1663662e661ef
+464	717	7648680574577561	CommunityTools.exe	880fb01988e41f9e
+28	424	7648680683927988	CMakeFiles/CommunityTools.dir/main.cpp.obj	aab1663662e661ef
+424	498	7648680687891746	CommunityTools.exe	880fb01988e41f9e

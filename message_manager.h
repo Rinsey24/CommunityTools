@@ -8,6 +8,7 @@
 class MessageManager {
 public:
     static int generateMessageId();
+    static bool messageExists(int messageId);
 
 private:
     static int nextMessageId;

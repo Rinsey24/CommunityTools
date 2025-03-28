@@ -4,6 +4,8 @@
 #include "message_manager.h"
 #include "topic_manager.h"
 #include <iostream>
+#include <memory>
+#include <vector>
 
 using namespace std;
 
@@ -25,19 +27,29 @@ int main() {
     // Демонстрация прав модератора
     sayori.createTopic(L"Давайте устроим пикник!");
     sayori.createMessage(L"Может, сходим на пикник в парк? Будет весело!");
-    sayori.deleteMessage(MessageManager::generateMessageId());
-    sayori.deleteTopic(TopicManager::generateTopicId());
-    sayori.modifyTopic(TopicManager::generateTopicId(), L"Пикник отменяется :(");
-    sayori.renameTopic(TopicManager::generateTopicId(), L"Новая идея: книжный клуб!");
+    if (MessageManager::messageExists(1)) {
+        sayori.deleteMessage(1);
+    }
+    if (TopicManager::topicExists(1)) {
+        sayori.deleteTopic(1);
+    }
+    if (TopicManager::topicExists(2)) {
+        sayori.modifyTopic(2, L"Пикник отменяется:(");
+        sayori.renameTopic(2, L"Новая идея: книжный клуб!");
+    }
 
     // Демонстрация прав администратора
     monika.createTopic(L"Добро пожаловать в литературный клуб!");
     monika.createMessage(L"Рада видеть всех в нашем клубе! Давайте писать стихи!");
-    monika.deleteMessage(MessageManager::generateMessageId());
-    monika.banUser(yuri); // Бан Юри
-    monika.renameTopic(TopicManager::generateTopicId(), L"Только лучшие стихи!");
-    monika.deleteTopic(TopicManager::generateTopicId());
-    monika.modifyTopic(TopicManager::generateTopicId(), L"Клуб закрыт на реконструкцию...");
+    if (MessageManager::messageExists(2)) {
+        monika.deleteMessage(2);
+    }
+    monika.banUser(yuri);
+    if (TopicManager::topicExists(3)) {
+        monika.renameTopic(3, L"Только лучшие стихи!");
+        monika.deleteTopic(3);
+        monika.modifyTopic(3, L"Клуб закрыт на реконструкцию...");
+    }
 
     return 0;
 }
