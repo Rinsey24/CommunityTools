@@ -1,0 +1,17 @@
+# ninja log v6
+20	599	7648601830897466	CMakeFiles/CommunityTools.dir/admin.cpp.obj	16bb5832204de3cc
+14	601	7648601830841288	CMakeFiles/CommunityTools.dir/user.cpp.obj	8f451b145ec5ce24
+47	1408	7648602568740117	CMakeFiles/CommunityTools.dir/moderator.cpp.obj	7d95298d6f3e602c
+9	605	7648601830787172	CMakeFiles/CommunityTools.dir/main.cpp.obj	aab1663662e661ef
+1409	1697	7648602582360026	CommunityTools.exe	a954525245695806
+35	93	7648616001436739	CMakeFiles/CommunityTools.dir/message_manager.cpp.obj	43a13667f3d0651d
+39	95	7648616001472155	CMakeFiles/CommunityTools.dir/topic_manager.cpp.obj	6eb95761e70e2260
+36	415	7648634035553374	CMakeFiles/CommunityTools.dir/admin.cpp.obj	16bb5832204de3cc
+26	427	7648634035461828	CMakeFiles/CommunityTools.dir/main.cpp.obj	aab1663662e661ef
+33	429	7648634035532438	CMakeFiles/CommunityTools.dir/moderator.cpp.obj	7d95298d6f3e602c
+30	441	7648634035502264	CMakeFiles/CommunityTools.dir/user.cpp.obj	8f451b145ec5ce24
+441	564	7648634039603487	CommunityTools.exe	880fb01988e41f9e
+19	420	7648636273751999	CMakeFiles/CommunityTools.dir/main.cpp.obj	aab1663662e661ef
+421	522	7648636277771193	CommunityTools.exe	880fb01988e41f9e
+17	402	7648637634810941	CMakeFiles/CommunityTools.dir/main.cpp.obj	aab1663662e661ef
+403	496	7648637638666684	CommunityTools.exe	880fb01988e41f9e

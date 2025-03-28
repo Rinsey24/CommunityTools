@@ -1,0 +1,3 @@
+C:/Users/Daria/source/repos/CommunityTools/cmake-build-debug/CMakeFiles/CommunityTools.dir
+C:/Users/Daria/source/repos/CommunityTools/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Daria/source/repos/CommunityTools/cmake-build-debug/CMakeFiles/rebuild_cache.dir
