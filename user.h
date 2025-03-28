@@ -14,8 +14,8 @@ public:
     [[nodiscard]] wstring getName() const;
     [[nodiscard]] wstring getEmail() const;
 
-    void createTopic(const wstring& topicName);
-    void createMessage(const wstring& messageText);
+    void createTopic(const wstring& topicName) const;
+    void createMessage(const wstring& messageText) const;
 
 private:
     wstring name;

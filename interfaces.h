@@ -22,19 +22,19 @@ public:
 
 class CreateTopics {
 public:
-    virtual void createTopic(const std::wstring& topicName) = 0;
+    virtual void createTopic(const wstring& topicName) = 0;
     virtual ~CreateTopics() = default;
 };
 
 class RenameTopics {
 public:
-    virtual void renameTopic(int topicId, const std::wstring& newName) = 0;
+    virtual void renameTopic(int topicId, const wstring& newName) = 0;
     virtual ~RenameTopics() = default;
 };
 
 class CreateMessages {
 public:
-    virtual void createMessage(const std::wstring& messageText) = 0;
+    virtual void createMessage(const wstring& messageText) = 0;
     virtual ~CreateMessages() = default;
 };
 

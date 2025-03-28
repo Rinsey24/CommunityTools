@@ -17,10 +17,10 @@ wstring User::getEmail() const {
     return email;
 }
 
-void User::createTopic(const wstring& topicName) {
+void User::createTopic(const wstring& topicName) const {
     wcout << L"Пользователь " << getName() << L" Создал(а) тему: " << topicName << '\n';
 }
 
-void User::createMessage(const wstring& messageText) {
+void User::createMessage(const wstring& messageText) const {
     wcout << L"Пользователь " << getName() << L" Написал(а): " << messageText << '\n';
 }

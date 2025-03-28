@@ -8,7 +8,7 @@
 #include "user.h"
 #include "interfaces.h"
 using namespace std;
-class Admin : public User, public DeleteMessages, public BanUsers, public RenameTopics, public CreateTopics,public  CreateMessages{ // Добавлено наследование от CreateTopics
+class Admin : public User, public DeleteMessages, public BanUsers, public RenameTopics, public CreateTopics, public CreateMessages {
 public:
     Admin(const wstring& name, const wstring& email);
     ~Admin() override;
